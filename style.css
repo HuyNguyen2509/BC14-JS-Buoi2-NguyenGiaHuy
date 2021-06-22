@@ -1,0 +1,9 @@
+.hiden{
+    display: none;
+}
+
+.content{
+    color:red;
+    font-weight: bold;
+    font-size: 22px;
+}

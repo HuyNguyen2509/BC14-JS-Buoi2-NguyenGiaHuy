@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- Bài 1 -->
+    <h1>Bài tập 1: Tính tiền lương</h1>
+    <label for="iSo">Nhập ngày công để tính lương</label>
+    <input type="text" id="iSo">
+    <button onclick="Luong()">Tính Lương</button>
+
+    <div id="messBai1" class="content">
+        <p>Tiền Lương là: <span id="Luong">0</span> </p>
+    </div>
+
+    <!-- Bài 2 -->
+    <h1>Bài tập 2: Nhập 5 số thực - Tính Tổng 5 số thực đó</h1>
+    <label for="SoThuc1">Số Thực 1</label>
+    <input type="text" id="SoThuc1"> <br>
+    <label for="SoThuc2">Số Thực 2</label>
+    <input type="text" id="SoThuc2"> <br>
+    <label for="SoThuc3">Số Thực 3</label>
+    <input type="text" id="SoThuc3"> <br>
+    <label for="SoThuc4">Số Thực 4</label>
+    <input type="text" id="SoThuc4"> <br>
+    <label for="SoThuc5">Số Thực 5</label>
+    <input type="text" id="SoThuc5"> <br>
+    <button onclick="TongSoThuc()">Tính Tổng</button>
+
+    <div id="messBai2" class="content">
+        <p>Tổng 5 số thực là: <span id="SoThuc">0</span> </p>
+    </div>
+
+    <!-- Bài 3 -->
+    <h1>Bài tập 3: Đổi Tiền Đô</h1>
+    <label for="Dola">Nhập số lượng đô</label>
+    <input type="text" id="Dola">
+    <button onclick="Money()">Tính Tiền Đổi</button>
+
+    <div id="messBai3" class="content">
+        <p>Tiền VND là: <span id="VND">0</span> </p>
+    </div>
+
+    <!-- Bài 4 -->
+    <h1>Bài tập 4: Tính Chu Vi-Diện Tích</h1>
+    <label for="Dai">Nhập Chiều Dài </label>
+    <input type="text" id="Dai"> <br>
+    <label for="Rong">Nhập Chiều Rộng</label>
+    <input type="text" id="Rong"> <br>
+    <button onclick="CVDT()">Tính CV-DT</button>
+
+    <div id="messBa4" class="content">
+        <p>Chu Vi là: <span id="ChuVi">0</span> </p>
+        <p>Diện Tích là: <span id="DienTich">0</span> </p>
+    </div>
+
+    <!-- Bài 5 -->
+    <h1>Bài tập 5: Nhập 1 số có 2 chữ số - Tính Tổng 2 Chữ Số</h1>
+    <label for="number">Nhập 1 Số Có 2 Chữ Số </label>
+    <input type="text" id="number"> <br>
+    <button onclick="Tong2So()">Tính Tổng</button>
+
+    <div id="messBai5" class="content">
+        <p>Tổng 2 Số : <span id="TotalNumber">0</span> </p>
+    </div>
+
+    <script src="./js/bai1.js"></script>
+    <script src="./js/bai2.js"></script>
+    <script src="./js/bai3.js"></script>
+    <script src="./js/bai4.js"></script>
+    <script src="./js/bai5.js"></script>
+
+</body>
+
+</html>
