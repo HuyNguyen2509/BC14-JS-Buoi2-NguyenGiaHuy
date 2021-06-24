@@ -8,11 +8,11 @@ function TongSoThuc() {
     var sumSoThuc1 = (iSoThuc1 + iSoThuc2 + iSoThuc3 + iSoThuc4 + iSoThuc5) / 5;
     console.log('Tổng số thực: ', sumSoThuc1);
 
-    var iSo1 = Number(iSoThuc1);
-    var iSo2 = Number(iSoThuc2);
-    var iSo3 = Number(iSoThuc3);
-    var iSo4 = Number(iSoThuc4);
-    var iSo5 = Number(iSoThuc5);
+    var iSo1 = Number(parseFloat(iSoThuc1));
+    var iSo2 = Number(parseFloat(iSoThuc2));
+    var iSo3 = Number(parseFloat(iSoThuc3));
+    var iSo4 = Number(parseFloat(iSoThuc4));
+    var iSo5 = Number(parseFloat(iSoThuc5));
 
     var sumSoThuc = (iSo1 + iSo2 + iSo3 + iSo4 + iSo5) / 5;
 
