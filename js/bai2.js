@@ -5,14 +5,12 @@ function TongSoThuc() {
     var iSoThuc4 = document.getElementById('SoThuc4').value;
     var iSoThuc5 = document.getElementById('SoThuc5').value;
 
-    var sumSoThuc1 = (iSoThuc1 + iSoThuc2 + iSoThuc3 + iSoThuc4 + iSoThuc5) / 5;
-    console.log('Tổng số thực: ', sumSoThuc1);
 
-    var iSo1 = Number(parseFloat(iSoThuc1));
-    var iSo2 = Number(parseFloat(iSoThuc2));
-    var iSo3 = Number(parseFloat(iSoThuc3));
-    var iSo4 = Number(parseFloat(iSoThuc4));
-    var iSo5 = Number(parseFloat(iSoThuc5));
+    var iSo1 = parseFloat(iSoThuc1);
+    var iSo2 = parseFloat(iSoThuc2);
+    var iSo3 = parseFloat(iSoThuc3);
+    var iSo4 = parseFloat(iSoThuc4);
+    var iSo5 = parseFloat(iSoThuc5);
 
     var sumSoThuc = (iSo1 + iSo2 + iSo3 + iSo4 + iSo5) / 5;
 
