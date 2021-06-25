@@ -1,6 +1,6 @@
 function CVDT() {
-    var iDai = document.getElementById('Dai').value;
-    var iRong = document.getElementById('Rong').value;
+    var iDai = +document.getElementById('Dai').value;
+    var iRong = +document.getElementById('Rong').value;
 
     var iCV = (iDai + iRong) * 2;
     var iDT = iDai * iRong;
